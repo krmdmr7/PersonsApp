@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41070E89285E941E00499CC2 /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070E88285E941E00499CC2 /* AddPersonViewController.swift */; };
+		41070E8B285E943C00499CC2 /* UpdateContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070E8A285E943C00499CC2 /* UpdateContactViewController.swift */; };
+		41070E8D285E945800499CC2 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41070E8C285E945800499CC2 /* PersonDetailViewController.swift */; };
 		41179B53285E8A690086D6DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41179B52285E8A690086D6DA /* AppDelegate.swift */; };
 		41179B55285E8A690086D6DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41179B54285E8A690086D6DA /* SceneDelegate.swift */; };
 		41179B57285E8A690086D6DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41179B56285E8A690086D6DA /* ViewController.swift */; };
@@ -16,6 +19,7 @@
 		41179B6A285E8A700086D6DA /* Persons_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41179B69285E8A700086D6DA /* Persons_AppTests.swift */; };
 		41179B74285E8A700086D6DA /* Persons_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41179B73285E8A700086D6DA /* Persons_AppUITests.swift */; };
 		41179B76285E8A700086D6DA /* Persons_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41179B75285E8A700086D6DA /* Persons_AppUITestsLaunchTests.swift */; };
+		41179B83285E8BB60086D6DA /* PersonCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41179B82285E8BB60086D6DA /* PersonCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41070E88285E941E00499CC2 /* AddPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
+		41070E8A285E943C00499CC2 /* UpdateContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateContactViewController.swift; sourceTree = "<group>"; };
+		41070E8C285E945800499CC2 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
 		41179B4F285E8A690086D6DA /* Persons App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Persons App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41179B52285E8A690086D6DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41179B54285E8A690086D6DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		41179B6F285E8A700086D6DA /* Persons AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persons AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41179B73285E8A700086D6DA /* Persons_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons_AppUITests.swift; sourceTree = "<group>"; };
 		41179B75285E8A700086D6DA /* Persons_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41179B82285E8BB60086D6DA /* PersonCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				41179B5B285E8A6F0086D6DA /* Assets.xcassets */,
 				41179B5D285E8A6F0086D6DA /* LaunchScreen.storyboard */,
 				41179B60285E8A6F0086D6DA /* Info.plist */,
+				41179B82285E8BB60086D6DA /* PersonCellTableViewCell.swift */,
+				41070E88285E941E00499CC2 /* AddPersonViewController.swift */,
+				41070E8A285E943C00499CC2 /* UpdateContactViewController.swift */,
+				41070E8C285E945800499CC2 /* PersonDetailViewController.swift */,
 			);
 			path = "Persons App";
 			sourceTree = "<group>";
@@ -260,7 +272,11 @@
 			files = (
 				41179B57285E8A690086D6DA /* ViewController.swift in Sources */,
 				41179B53285E8A690086D6DA /* AppDelegate.swift in Sources */,
+				41179B83285E8BB60086D6DA /* PersonCellTableViewCell.swift in Sources */,
 				41179B55285E8A690086D6DA /* SceneDelegate.swift in Sources */,
+				41070E8B285E943C00499CC2 /* UpdateContactViewController.swift in Sources */,
+				41070E8D285E945800499CC2 /* PersonDetailViewController.swift in Sources */,
+				41070E89285E941E00499CC2 /* AddPersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
